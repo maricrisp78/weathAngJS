@@ -1,4 +1,4 @@
-// Generated on 2015-11-06 using generator-angular 0.12.1
+// Generated on 2015-11-25 using generator-angular 0.12.1
 'use strict';
 
 // # Globbing
@@ -31,7 +31,7 @@ module.exports = function (grunt) {
 
     // Project settings
     yeoman: appConfig,
-    
+
     buildcontrol: {
       options: {
         dir: 'dist',
@@ -41,12 +41,11 @@ module.exports = function (grunt) {
       },
       pages: {
         options: {
-          remote: 'git@github.com:maricrisp78/weathAngJS.git',
+          remote: 'git@github.com:your_github_user/your_webapp.git',
           branch: 'gh-pages'
         }
       }
     },
-
 
     // Watches files for changes and runs tasks based on the changed files
     watch: {
@@ -248,8 +247,8 @@ module.exports = function (grunt) {
             dest: '.tmp/styles',
             ext: '.css'
         }]
-    }
-},
+      }
+    },
 
     // Renames files for browser caching purposes
     filerev: {
